@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 80vw;
+  display: flex;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  /* color: rgb(150, 128, 173); */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+textarea {
+  width: 100% !important;
+  min-height: 300px;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+
+.right,
+.left {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+
+  width: 300px;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  border: none;
+  /* Kenar çizgisi olmadığı için eklenen düzeltme */
+}
+
+
+.disabled-area {
+  background: rgb(224, 224, 224)
+}
+
+.select {
+  color: black;
+
+}
+
+.change-btn {
+  height: 40px;
+  width: 50px;
+  margin-top: -1px;
+}
+
+.cevir {
+  margin-top: 20px;
+  margin-left: 100px;
+}
