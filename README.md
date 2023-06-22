@@ -51,5 +51,5 @@ Bu README dosyası, Toolkit Thunk Çeviri + uygulamasını tanıtmak ve kullanı
 
 İyi kullanımlar!
 
-<h3><a href="">Canlı Önizleme</a></h3>
+<h3><a href="https://toolkit-translate.netlify.app">Canlı Önizleme ile Uygulamayaı deneyimleyebilirsiniz</a></h3>
 <img src="./src/assets/screen.gif" alt="">
